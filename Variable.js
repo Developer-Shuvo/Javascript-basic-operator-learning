@@ -47,6 +47,8 @@
 // totalPrice = applePrice + lemonPrice;
 // console.log(totalPrice);
 
+
+// *** - operator ***
 // var myCash = 1000;
 // var applePrice = 330;
 // var grapePrice = 390;
@@ -56,6 +58,7 @@
 // console.log(returnCash);
 
 
+// *** average find out ***
 // var math = 80;
 // var physics = 70;
 // var chemistry = 90;
@@ -65,7 +68,7 @@
 // var average = (totalMarks / 5);
 // console.log(average);
 
-
+// *** average find out ***
 // var alu = 30;
 // var begun = 80;
 // var borboti = 160;
@@ -75,6 +78,45 @@
 // console.log(averagePrice);
 
 
-var cash = 2735;
-var vagsesh = cash % 3;
-console.log(vagsesh);
+
+// *** Modulus Operator ***
+// var cash = 2735;
+// var vagsesh = cash % 3;
+// console.log(vagsesh);
+
+// ***If Else er kaj****
+
+// var person = "zinan";
+// var moylafalai = true;
+
+// if (person == "nirob" && moylafalai == true) {
+//     console.log("Jorimana dite hobena");
+
+// } else {
+//     console.log("Jorimana 50 taka");
+// }
+
+// ***** if else with &&-and ||-or *****
+
+// const salary = 30000;
+// const height = 5.8;
+// const age = 25;
+
+// if (salary > 25000 && height < 5.2 || age > 20) {
+//     console.log("You are selected");
+// } else {
+//     console.log("You are not selected");
+// }
+
+
+// **Some practice with nirob**
+
+const moylaFela = false;
+const naFelle = 50;
+const homework = "korce";
+
+if (moylaFela == false && homework == "korce") {
+    console.log("Jorimana dite hobena");
+} else {
+    console.log("Jorimana 50 taka");
+}
