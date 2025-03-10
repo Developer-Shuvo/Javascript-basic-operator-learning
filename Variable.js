@@ -111,12 +111,26 @@
 
 // **Some practice with nirob**
 
-const moylaFela = false;
-const naFelle = 50;
-const homework = "korce";
+// const moylaFela = false;
+// const naFelle = 50;
+// const homework = "korce";
 
-if (moylaFela == false && homework == "korce") {
-    console.log("Jorimana dite hobena");
+// if (moylaFela == false && homework == "korce") {
+//     console.log("Jorimana dite hobena");
+// } else {
+//     console.log("Jorimana 50 taka");
+// }
+
+
+// ****Notun udaharon*****
+
+const shuvoJobKore = true;
+const shuvoHeight = 5.8;
+const shuvoAge = 22;
+const shuvoValoCele = true;
+
+if (shuvoJobKore == false && shuvoHeight < 5.2 && shuvoAge > 20 && shuvoValoCele == false) {
+    console.log("Shuvo is selected");
 } else {
-    console.log("Jorimana 50 taka");
+    console.log("Shuvo is not selected");
 }
