@@ -124,13 +124,68 @@
 
 // ****Notun udaharon*****
 
-const shuvoJobKore = true;
-const shuvoHeight = 5.8;
-const shuvoAge = 22;
-const shuvoValoCele = true;
+// const shuvoJobKore = true;
+// const shuvoHeight = 5.8;
+// const shuvoAge = 22;
+// const shuvoValoCele = true;
 
-if (shuvoJobKore == false && shuvoHeight < 5.2 && shuvoAge > 20 && shuvoValoCele == false) {
-    console.log("Shuvo is selected");
+// if (shuvoJobKore == false && shuvoHeight < 5.2 && shuvoAge > 20 && shuvoValoCele == false) {
+//     console.log("Shuvo is selected");
+// } else {
+//     console.log("Shuvo is not selected");
+// }
+
+
+
+// **Discount Price **
+
+
+// const price = 1000;
+
+// if (price >= 1000) {
+//     // 10% discount
+//     const discount = (price * 10 / 100);
+//     const payablePrice = price - discount;
+//     console.log(payablePrice);
+// } else {
+//     console.log("You will not get any discount");
+// }
+
+
+
+// ****Discount Price ****
+// const price = 8000;
+
+// if (price <= 10000) {
+//     // 20% discount
+//     const discount = (price * 20 / 100);
+//     const payablePrice = price - discount;
+//     console.log(payablePrice);
+// } else {
+//     console.log("full payment");
+// }
+
+
+
+
+
+// ** Resturant Discount fo different ages customer**
+
+const age = 60;
+const price = 500;
+
+if (age <= 10) {
+    // 50% discount
+    const discount = (price * 50 / 100);
+    const payablePrice = price - discount;
+    console.log(payablePrice);
+
+} else if (age >= 50) {
+    // 20% discount
+    const discount = (price * 20 / 100);
+    const payablePrice = price - discount;
+    console.log(payablePrice);
+
 } else {
-    console.log("Shuvo is not selected");
+    console.log("if Your are not appropriate to get any discount then you have to pay full amount of our price")
 }
