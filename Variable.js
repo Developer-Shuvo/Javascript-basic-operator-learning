@@ -194,14 +194,76 @@
 
 // *** ************************************
 
-const money = 1000;
+// const money = 1000;
 
-if (money >= 20000) {
-    console.log("You are my rich friend")
-} else
+// if (money >= 20000) {
+//     console.log("You are my rich friend")
+// } else
 
-if (money >= 10000)
-    console.log("You are my middle class friend");
-else {
-    console.log("You are my poor friend");
+// if (money >= 10000)
+//     console.log("You are my middle class friend");
+// else {
+//     console.log("You are my poor friend");
+// }
+
+
+// ********Votar********
+// Ternary operator 
+// shorthand of if else
+// *******
+
+// const age = 22;
+
+// age >= 18 ? console.log("You're eligible for vote") : console.log("You're not eligible for vote");
+
+
+
+
+// *********************
+
+// const salary = 150000;
+// const height = 5.5;
+// const age = 18;
+// const isMarried = false;
+
+// if (salary >= 15000 && height >= 5.8 || age >= 20 && isMarried == false) {
+//     console.log("You are selected");
+// } else {
+//     console.log("Your are not selected for marry");
+// }
+
+
+
+
+// *****Eid Discount in our Aarong Outlet ******
+
+const adultAge = 55;
+const childAge = 10;
+const price = 10000;
+
+if (adultAge >= 50) {
+    // 50% discount
+    const discount = (price * 50 / 100);
+    const payablePrice = price - discount;
+    console.log(payablePrice);
+} else if (childAge >= 8) {
+    // 30% discount
+    const discount = (price * 30 / 100);
+    const payablePrice = price - discount;
+    console.log(payablePrice);
+} else if (price >= 10000) {
+    // 10% discount
+    const discount = (price * 10 / 100);
+    const payablePrice = price - discount;
+    console.log(payablePrice);
+
+    elseif(price >= 8000) {
+        // 5% discount
+        const discount = (price * 5 / 100);
+        const payablePrice = price - discount;
+        console.log(payablePrice);
+    }
+
+} else {
+    console.log("You will not get any discount");
 }
