@@ -277,13 +277,40 @@
 
 // *****Drinks Practice*******
 
-const burgerPrice = 400;
+// const burgerPrice = 400;
 
-if (burgerPrice >= 500) {
+// if (burgerPrice >= 500) {
 
-    // 500 taka er upore holei free drinks paben
-    console.log("You will get free drinks");
+//     // 500 taka er upore holei free drinks paben
+//     console.log("You will get free drinks");
 
-} else {
-    console.log("you have to buy a coke = 30tk")
+// } else {
+//     console.log("you have to buy a coke = 30tk")
+// }
+
+
+
+
+
+
+
+// ******Calculate BMI using formula******
+
+const weight = 52;
+const height = 5.5;
+
+if (weight >= 50 && weight <= 60 && height <= 5.8) {
+    // You are Normal
+    console.log("You are normal");
+}
+
+elseif(weight >= 70 && weight <= 90 && height <= 5.8) {
+    // You are Overweight
+    console.log("You are overweight");
+}
+
+
+if (weight >= 40 && weight <= 50 && height >= 5.5) {
+    // You are Underweight
+    console.log("You are underweight");
 }
