@@ -237,33 +237,53 @@
 
 // *****Eid Discount in our Aarong Outlet ******
 
-const adultAge = 55;
-const childAge = 10;
-const price = 10000;
+// const adultAge = 55;
+// const childAge = 10;
+// const price = 10000;
 
-if (adultAge >= 50) {
-    // 50% discount
-    const discount = (price * 50 / 100);
-    const payablePrice = price - discount;
-    console.log(payablePrice);
-} else if (childAge >= 8) {
-    // 30% discount
-    const discount = (price * 30 / 100);
-    const payablePrice = price - discount;
-    console.log(payablePrice);
-} else if (price >= 10000) {
-    // 10% discount
-    const discount = (price * 10 / 100);
-    const payablePrice = price - discount;
-    console.log(payablePrice);
+// if (adultAge >= 50) {
+//     // 50% discount
+//     const discount = (price * 50 / 100);
+//     const payablePrice = price - discount;
+//     console.log(payablePrice);
+// } else if (childAge >= 8) {
+//     // 30% discount
+//     const discount = (price * 30 / 100);
+//     const payablePrice = price - discount;
+//     console.log(payablePrice);
+// } else if (price >= 10000) {
+//     // 10% discount
+//     const discount = (price * 10 / 100);
+//     const payablePrice = price - discount;
+//     console.log(payablePrice);
 
-    elseif(price >= 8000) {
-        // 5% discount
-        const discount = (price * 5 / 100);
-        const payablePrice = price - discount;
-        console.log(payablePrice);
-    }
+//     elseif(price >= 8000) {
+//         // 5% discount
+//         const discount = (price * 5 / 100);
+//         const payablePrice = price - discount;
+//         console.log(payablePrice);
+//     }
+
+// } else {
+//     console.log("You will not get any discount");
+// }
+
+
+
+
+
+
+
+
+// *****Drinks Practice*******
+
+const burgerPrice = 400;
+
+if (burgerPrice >= 500) {
+
+    // 500 taka er upore holei free drinks paben
+    console.log("You will get free drinks");
 
 } else {
-    console.log("You will not get any discount");
+    console.log("you have to buy a coke = 30tk")
 }
