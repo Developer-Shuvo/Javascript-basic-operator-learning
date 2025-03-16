@@ -38,8 +38,40 @@
 
 // ****************For loop*******************
 
-let shoppingItems = ['Milk', 'Bread', 'Egg', 'Butter', 'Cheese'];
+// let shoppingItems = ['Milk', 'Bread', 'Egg', 'Butter', 'Cheese'];
 
-for (const num of shoppingItems) {
-    console.log(num);
+// for (const num of shoppingItems) {
+//     console.log(num);
+// }
+
+
+
+// ***************while loop using sum of numbers****************
+
+// let amount = 200;
+// let total = 0;
+
+// while (amount <= 500) {
+//     console.log(total);
+//     total = total + amount;
+//     console.log("Moot" + total);
+//     amount++;
+// }
+
+
+// ************Even number using while loop and for loop also***************
+
+let marks = 85;
+
+while (marks <= 100) {
+    console.log(marks);
+    marks++;
+
+    if (marks % 2 === 0) {
+        console.log("Even Number is: " + marks);
+
+    }
+
+
+
 }
