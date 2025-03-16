@@ -61,17 +61,29 @@
 
 // ************Even number using while loop and for loop also***************
 
-let marks = 85;
+// let marks = 85;
 
-while (marks <= 100) {
-    console.log(marks);
-    marks++;
+// while (marks <= 100) {
+//     console.log(marks);
+//     marks++;
 
-    if (marks % 2 === 0) {
-        console.log("Even Number is: " + marks);
+//     if (marks % 2 === 0) {
+//         console.log("Even Number is: " + marks);
 
+//     }
+
+// }
+
+
+// ****************Odd Number **************
+
+let money = 423;
+
+while (money <= 500) {
+    console.log(money);
+    money++;
+
+    if (money % 2 === 1) {
+        console.log("Odd number is :" + money);
     }
-
-
-
 }
