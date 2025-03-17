@@ -77,13 +77,38 @@
 
 // ****************Odd Number **************
 
-let money = 423;
+// let money = 423;
 
-while (money <= 500) {
-    console.log(money);
-    money++;
+// while (money <= 500) {
+//     console.log(money);
+//     money++;
 
-    if (money % 2 === 1) {
-        console.log("Odd number is :" + money);
-    }
+//     if (money % 2 === 1) {
+//         console.log("Odd number is :" + money);
+//     }
+// }
+
+
+
+// **************** i invest at least 6 hours in a day, print this 60 times*************
+
+// const hours = 6;
+// const days = 60;
+
+
+// for (let i = 1; i <= days; i++) {
+//     console.log('I invest at least 6 hours in a day');
+
+// }
+
+
+
+// ********* i invest atleast 8 hours in a day, print this 10 times*************
+
+const hours = 8;
+const days = 10;
+
+for (let i = 1; i <= days; i++) {
+
+    console.log("i code everyday")
 }
