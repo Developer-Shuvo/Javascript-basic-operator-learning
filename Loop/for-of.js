@@ -105,10 +105,22 @@
 
 // ********* i invest atleast 8 hours in a day, print this 10 times*************
 
-const hours = 8;
-const days = 10;
+// const hours = 8;
+// const days = 10;
 
-for (let i = 1; i <= days; i++) {
+// for (let i = 1; i <= days; i++) {
 
-    console.log("i code everyday")
-}
+//     console.log("i code everyday")
+// }
+
+
+
+// ******************************************
+
+let price = 2990;
+let discount = 20;
+// discount = 20%;
+
+discountPrice = price * discount / 100;
+console.log("Discount Price is: " + discountPrice);
+console.log(payableAmount = price - discountPrice);
