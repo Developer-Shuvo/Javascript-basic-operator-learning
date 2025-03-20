@@ -117,10 +117,22 @@
 
 // ******************************************
 
-let price = 2990;
-let discount = 20;
-// discount = 20%;
+// let price = 2990;
+// let discount = 20;
+// // discount = 20%;
+
+// discountPrice = price * discount / 100;
+// console.log("Discount Price is: " + discountPrice);
+// console.log(payableAmount = price - discountPrice);
+
+
+
+// **************************************
+
+let price = 3500;
+let discount = 30;
 
 discountPrice = price * discount / 100;
-console.log("Discount Price is: " + discountPrice);
-console.log(payableAmount = price - discountPrice);
+payableAmount = price - discountPrice;
+console.log("Discount Price is :" + discountPrice);
+console.log("payable Amount is :" + payableAmount);
